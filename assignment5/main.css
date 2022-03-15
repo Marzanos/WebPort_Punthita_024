@@ -1,0 +1,18 @@
+body{
+    background-color: bisque;
+}
+#topic1{
+    color: white;
+    background-color: burlywood;
+}
+#comment1{
+    color: white;
+    background-color: chocolate;
+}
+#comment2{
+    color: white;
+    background-color: burlywood;
+}
+#PostArea{
+    text-align: center;
+}

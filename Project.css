@@ -1,0 +1,623 @@
+body
+{  
+    margin: 0;
+	background-image: linear-gradient(#D9C2AD, white);		
+}
+/* Navigator bar */
+.Nav-container
+{  
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #D9A577 ;
+    display: grid;
+    grid-template-columns: 15% 15% 40% 15% 15% ;
+    
+}
+.Nav-container>div
+{
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.homeButton
+{
+    margin-top: 4%;
+    font-size: medium;
+    grid-column: 1 / span 1;
+}
+.menuButton
+{
+    margin-top: 4%;
+    font-size: medium;
+    grid-column: 2 / span 1;
+}
+.PunButton
+{   
+    font-size: x-large;
+    grid-column: 3 / span 1;
+}
+.WorkButton
+{
+    margin-top: 4%;
+    font-size: medium;
+    grid-column: 4 / span 1;
+}
+.ProjectButton
+{
+    margin-top: 4%;
+    font-size: medium;
+    grid-column: 5 / span 1;
+}
+
+a:link
+{
+    text-decoration: none;
+    color: white;
+}
+a:visited 
+{
+    text-decoration: none;
+    color: white;
+}
+a:hover 
+{
+    text-decoration: none;
+    color: #D9C2AD;
+}
+
+/* Project */
+
+.Project-container
+{
+    margin-top: 3%;
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Projecttitle
+{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+span{
+    padding: 1%;
+    font-size: 180%;
+    color: #F2F2F2;
+    background-color: #A66B38;  
+    border-radius: 5%;
+}
+
+h2
+{
+    text-align: center;
+}
+.Syprathia
+{
+    display: grid;
+    grid-template-columns: 15% 45% 30% 10% ;
+    padding-bottom: 4%;
+}
+.Syparthia-Slide-container
+{
+    grid-column: 2 / span 1;    
+}
+.SyparthiaText
+{
+    grid-column: 3 / span 1;
+}
+video
+{
+    width: 90%;
+}
+#Sy1
+{
+    width: 90%;
+}
+#Sy2
+{
+    width: 90%;
+}
+#Sy3
+{
+    width: 90%;
+}
+
+.Parasite
+{
+    display: grid;
+    grid-template-columns: 15% 45% 30% 10% ;
+    padding-bottom: 4%;
+}
+.Parasitevid
+{
+    grid-column: 2 / span 1;    
+}
+.ParasiteText
+{
+    grid-column: 3 / span 1;
+}
+
+.PMTCity
+{
+    display: grid;
+    grid-template-columns: 15% 45% 30% 10% ;
+    padding-bottom: 4%;
+}
+.PMTPic
+{
+    grid-column: 2 / span 1;    
+}
+#PMT1
+{
+    width: 92%;
+}
+.PMTText
+{
+    grid-column: 3 / span 1;
+}
+
+.Denbora
+{
+    display: grid;
+    grid-template-columns: 15% 45% 30% 10% ;
+    padding-bottom: 5%;
+}
+.DenboraPic
+{
+    margin-left: 3%;
+    grid-column: 2 / span 1;  
+    
+}
+#den1
+{
+    width: 90%;
+}
+.DenboraText
+{
+    grid-column: 3 / span 1;
+}
+
+
+
+* {box-sizing:border-box}
+.mySlides 
+{
+    display: none;
+}
+.prev, .next 
+{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    color: palevioletred;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    margin-right: 45%;
+}
+/* Position the "next button" to the right */
+.next 
+{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover 
+{
+    background-color: rgba(0,0,0,0.8);
+}
+
+.fade 
+{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+  
+@-webkit-keyframes fade 
+{
+    from {opacity: .4}
+    to {opacity: 1}
+}
+  
+@keyframes fade 
+{
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+/* footer */
+.footer
+{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33% ; 
+    background-color: #A66B38;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer > div
+{
+    font-size: 60%;
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+.contactPic
+{
+    width: 6%;
+}
+
+@media only screen and (max-width: 768px) 
+{
+/* Project */
+
+.Project-container
+{
+    margin-top: 3%;
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Projecttitle
+{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+span{
+    padding: 1%;
+    font-size: 180%;
+    color: #F2F2F2;
+    background-color: #A66B38;  
+    border-radius: 5%;
+}
+
+h2
+{
+    text-align: center;
+}
+.Syprathia
+{
+    display: grid;
+    grid-template-columns: 20% 60% 20% ;
+    padding-bottom: 4%;
+}
+.Syparthia-Slide-container
+{
+    grid-column: 2 / span 1; 
+    margin-left: 5%;   
+}
+.SyparthiaText
+{
+    grid-column: 2 / span 1;
+    font-size: 90%;
+}
+video
+{
+    width: 90%;
+    text-align: center;
+}
+#Sy1
+{
+    width: 90%;
+}
+#Sy2
+{
+    width: 90%;
+}
+#Sy3
+{
+    width: 90%;
+}
+
+.Parasite
+{
+    display: grid;
+    grid-template-columns: 20% 60% 20% ;
+    padding-bottom: 4%;
+}
+.Parasitevid
+{
+    grid-column: 2 / span 1;    
+    text-align: center;
+}
+.ParasiteText
+{
+    grid-column: 2 / span 1;
+    font-size: 90%;
+}
+
+.PMTCity
+{
+    display: grid;
+    grid-template-columns: 20% 60% 20% ;
+    padding-bottom: 4%;
+}
+.PMTPic
+{
+    grid-column: 2 / span 1;  
+    text-align: center;  
+}
+#PMT1
+{
+    width: 92%;
+}
+.PMTText
+{
+    grid-column: 2 / span 1;
+    font-size: 90%;
+}
+
+.Denbora
+{
+    display: grid;
+    grid-template-columns: 20% 60% 20% ;
+    padding-bottom: 5%;
+}
+.DenboraPic
+{
+    
+    grid-column: 2 / span 1;  
+    text-align: center;
+    
+}
+#den1
+{
+    width: 90%;
+}
+.DenboraText
+{
+    grid-column: 2 / span 1;
+    font-size: 90%;
+}
+
+
+.prev, .next 
+{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    color: palevioletred;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    margin-right: 25%;
+}
+/* Position the "next button" to the right */
+.next 
+{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover 
+{
+    background-color: rgba(0,0,0,0.8);
+}
+
+.fade 
+{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+  
+@-webkit-keyframes fade 
+{
+    from {opacity: .4}
+    to {opacity: 1}
+}
+  
+@keyframes fade 
+{
+    from {opacity: .4}
+    to {opacity: 1}
+}
+}
+
+@media only screen and (max-width: 500px) 
+{
+    .Nav-container
+    {  
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: #D9A577 ;
+        display: grid;
+        grid-template-columns: 15% 15% 40% 15% 15% ;
+        
+    }
+    .Nav-container>div
+    {
+        font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .homeButton
+    {
+        margin-top: 12%;
+        font-size: small;
+        grid-column: 1 / span 1;
+    }
+    .menuButton
+    {
+        margin-top: 12%;
+        font-size: small;
+        grid-column: 2 / span 1;
+    }
+    .PunButton
+    {   
+        font-size: large;
+        grid-column: 3 / span 1;
+    }
+    .WorkButton
+    {
+        margin-top: 12%;
+        font-size: small;
+        grid-column: 4 / span 1;
+    }
+    .ProjectButton
+    {
+        margin-top: 12%;
+        font-size: small;
+        grid-column: 5 / span 1;
+    }
+
+    /* Project */
+
+    .Projecttitle
+    {
+        text-align: center;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+    span{
+        padding: 1%;
+        font-size: 130%;
+        color: #F2F2F2;
+        background-color: #A66B38;  
+        border-radius: 5%;
+    }
+    h2
+    {
+        font-size: 90%;
+        text-align: center;
+    }
+    .Syprathia
+    {
+        display: grid;
+        grid-template-columns: 20% 60% 20% ;
+        padding-bottom: 4%;
+    }
+    .Syparthia-Slide-container
+    {
+        grid-column: 2 / span 1; 
+        margin-left: 5%;   
+    }
+    .SyparthiaText
+    {
+        grid-column: 2 / span 1;
+        font-size: 70%;
+    }
+    video
+    {
+        width: 90%;
+        text-align: center;
+    }
+    #Sy1
+    {
+        width: 90%;
+    }
+    #Sy2
+    {
+        width: 90%;
+    }
+    #Sy3
+    {
+        width: 90%;
+    }
+    
+    .Parasite
+    {
+        display: grid;
+        grid-template-columns: 20% 60% 20% ;
+        padding-bottom: 4%;
+    }
+    .Parasitevid
+    {
+        grid-column: 2 / span 1;    
+        text-align: center;
+    }
+    .ParasiteText
+    {
+        grid-column: 2 / span 1;
+        font-size: 70%;
+    }
+    
+    .PMTCity
+    {
+        display: grid;
+        grid-template-columns: 20% 60% 20% ;
+        padding-bottom: 4%;
+    }
+    .PMTPic
+    {
+        grid-column: 2 / span 1;  
+        text-align: center;  
+    }
+    #PMT1
+    {
+        width: 92%;
+    }
+    .PMTText
+    {
+        grid-column: 2 / span 1;
+        font-size: 70%;
+    }
+    
+    .Denbora
+    {
+        display: grid;
+        grid-template-columns: 20% 60% 20% ;
+        padding-bottom: 5%;
+    }
+    .DenboraPic
+    {
+        
+        grid-column: 2 / span 1;  
+        text-align: center;
+        
+    }
+    #den1
+    {
+        width: 90%;
+    }
+    .DenboraText
+    {
+        grid-column: 2 / span 1;
+        font-size: 70%;
+    }
+
+    .prev, .next 
+    {
+        cursor: pointer;
+        position: absolute;
+        top: 30%;
+        width: auto;
+        padding: 16px;
+        color: palevioletred;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        margin-right: 25%;
+        margin-bottom: 20%;
+    }
+    /* footer mobile */
+    .footer
+    {
+        display: grid;
+        grid-template-columns: 33.33% 33.33% 33.33% ; 
+        background-color: #A66B38;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .footer > div
+    {
+        font-size: 35%;
+        font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+    }
+    .contactPic
+    {
+        width: 5%;
+    }
+}

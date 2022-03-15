@@ -1,0 +1,417 @@
+body
+{  
+    margin: 0;
+	background-image: linear-gradient(#D9C2AD, white);		
+}
+/* Navigator bar */
+.Nav-container
+{  
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #D9A577 ;
+    display: grid;
+    grid-template-columns: 15% 15% 40% 15% 15% ;
+    
+}
+.Nav-container>div
+{
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.homeButton
+{
+    margin-top: 4%;
+    font-size: medium;
+    grid-column: 1 / span 1;
+}
+.menuButton
+{
+    margin-top: 4%;
+    font-size: medium;
+    grid-column: 2 / span 1;
+}
+.PunButton
+{   
+    font-size: x-large;
+    grid-column: 3 / span 1;
+}
+.WorkButton
+{
+    margin-top: 4%;
+    font-size: medium;
+    grid-column: 4 / span 1;
+}
+.ProjectButton
+{
+    margin-top: 4%;
+    font-size: medium;
+    grid-column: 5 / span 1;
+}
+
+a:link
+{
+    text-decoration: none;
+    color: white;
+}
+a:visited 
+{
+    text-decoration: none;
+    color: white;
+}
+a:hover 
+{
+    text-decoration: none;
+    color: #D9C2AD;
+}
+/* Intro */
+.Intro
+{     
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    font-size: 100%;
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.PunPic
+{    
+    width: 25%;
+    border-radius: 50%;
+    
+}
+.IntroText
+{
+    text-align: center;
+    font-size: medium;
+    padding-top: 30px;
+}
+/* Information */
+.information
+{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 15% 35% 35% 15%  ;
+    grid-gap: 10px;   
+}
+.informPic
+{
+    width: 70%;
+}
+.HobbiesPic
+{
+    grid-column: 2 / span 1;
+    text-align: right;
+    padding-right: 10%;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.HobbiesText
+{
+    grid-column: 3 / span 1;
+    text-align: left;
+    padding-left: 8%;
+    padding-bottom: 50px;
+    font-size: 120%;
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.SkillsText
+{
+    
+    grid-area: 2 / 2 / span 1 / span 1;
+    text-align: right;
+    padding-right: 10%;
+    padding-bottom: 50px;
+    font-size: 120%;
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.SkillsPic
+{
+    grid-column: 3 / span 1;
+    text-align: left;
+    padding-left: 10%;
+    padding-bottom: 50px;   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.InterestsPic
+{
+    grid-column: 2 / span 1;
+    text-align: right;
+    padding-right: 10%;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.InterestsText
+{
+    grid-column: 3 / span 1;
+    text-align: left;
+    padding-left: 10%;
+    padding-bottom: 50px;
+    font-size: 120%;
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* footer */
+.footer
+{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33% ; 
+    background-color: #A66B38;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer > div
+{
+    font-size: 60%;
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+.contactPic
+{
+    width: 6%;
+}
+
+@media only screen and (max-width: 768px) 
+{
+    .PunPic
+    {    
+        width: 35%;
+        border-radius: 50%;
+        
+    }
+    /* information tablet */
+    .information
+    {
+        padding-top: 50px;
+        display: grid;
+        grid-template-columns: 10% 40% 40% 10%  ;
+        grid-gap: 10px;   
+    }
+    .informPic
+    {
+        width: 70%;
+    }
+    .HobbiesPic
+    {
+        grid-column: 2 / span 1;
+        text-align: right;
+        padding-right: 10%;
+        padding-bottom: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .HobbiesText
+    {
+        grid-column: 3 / span 1;
+        text-align: left;
+        padding-left: 8%;
+        padding-bottom: 50px;
+        font-size: 80%;
+        font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .SkillsText
+    {
+        
+        grid-area: 2 / 2 / span 1 / span 1;
+        text-align: right;
+        padding-right: 10%;
+        padding-bottom: 50px;
+        font-size: 80%;
+        font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .SkillsPic
+    {
+        grid-column: 3 / span 1;
+        text-align: left;
+        padding-left: 10%;
+        padding-bottom: 50px;   
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .InterestsPic
+    {
+        grid-column: 2 / span 1;
+        text-align: right;
+        padding-right: 10%;
+        padding-bottom: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .InterestsText
+    {
+        grid-column: 3 / span 1;
+        text-align: left;
+        padding-left: 10%;
+        padding-bottom: 50px;
+        font-size: 80%;
+        font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+}
+@media only screen and (max-width: 500px) 
+{
+    .Nav-container
+    {  
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: #D9A577 ;
+        display: grid;
+        grid-template-columns: 15% 15% 40% 15% 15% ;
+        
+    }
+    .Nav-container>div
+    {
+        font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .homeButton
+    {
+        margin-top: 12%;
+        font-size: small;
+        grid-column: 1 / span 1;
+    }
+    .menuButton
+    {
+        margin-top: 12%;
+        font-size: small;
+        grid-column: 2 / span 1;
+    }
+    .PunButton
+    {   
+        font-size: large;
+        grid-column: 3 / span 1;
+    }
+    .WorkButton
+    {
+        margin-top: 12%;
+        font-size: small;
+        grid-column: 4 / span 1;
+    }
+    .ProjectButton
+    {
+        margin-top: 12%;
+        font-size: small;
+        grid-column: 5 / span 1;
+    }
+
+    /* Intro mobile */
+    .Intro
+    {     
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .PunPic
+    {    
+        width: 40%;
+        border-radius: 50%;
+        
+    }
+    .IntroText
+    {
+        text-align: center;
+        font-size: 60%;
+        padding-top: 10px;
+    }
+
+    /* Information mobile*/
+    .information
+    {
+        padding-top: 30px;
+        display: grid;
+        grid-template-columns: 15% 70% 15%  ;
+        grid-gap: 10px;   
+    }
+    
+    .informPic
+    {
+        width: 50%;
+    }
+
+    /* Make "item8" start on row-line 1 and column-line 2, and span 1 rows and 1 columns: */
+    .HobbiesPic
+    {
+        grid-area: 1 / 2 / span 1 / span 1;
+        text-align: center;
+        padding-bottom: 20px;
+        padding-right: 0%;
+    }
+    .HobbiesText
+    {
+        grid-area: 2 / 2 / span 1 / span 1;
+        text-align: left;
+        padding-left: 17%;
+        padding-bottom: 20px;
+        font-size: 70%;
+        font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .SkillsPic
+    {
+        grid-area: 3 / 2 / span 1 / span 1;
+        text-align: center;
+        padding-bottom: 50px;
+        padding-left: 0%;
+    }
+    .SkillsText
+    {
+        grid-area: 4 / 2 / span 1 / span 1;        
+        text-align: left;
+        padding-left: 17%;
+        padding-right: 0%;
+        padding-bottom: 50px;
+        font-size: 70%;
+        font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .InterestsPic
+    {
+        grid-area: 5 / 2 / span 1 / span 1;
+        text-align: center;
+        padding-bottom: 50px;
+        padding-right: 0%;
+    }
+    .InterestsText
+    {
+        grid-area: 6 / 2 / span 1 / span 1;
+        text-align: left;
+        padding-left: 17%;
+        padding-bottom: 50px;
+        font-size: 70%;
+        font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    /* footer mobile */
+    .footer
+    {
+        display: grid;
+        grid-template-columns: 33.33% 33.33% 33.33% ; 
+        background-color: #A66B38;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .footer > div
+    {
+        font-size: 35%;
+        font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+    }
+    .contactPic
+    {
+        width: 5%;
+    }
+}

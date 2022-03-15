@@ -1,0 +1,29 @@
+
+body{
+    margin-top: 0;
+    font-family: monospace;
+    background-color: linen;
+}
+.HeadPort{
+    text-align: center;
+}
+.LeftPort{
+    text-align: left;
+}
+img{
+    width: 30%;
+}
+h1
+{
+    background-color: salmon;
+    color: mintcream;
+    font-family: fantasy;
+}
+h4{
+    background-color: pink;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2,h3{
+    background-color: white;
+}

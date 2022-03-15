@@ -1,0 +1,182 @@
+body
+{  
+    margin: 0;
+	background-image: linear-gradient(#D9C2AD, white);
+    		
+}
+/* Navigator bar */
+.Nav-container
+{  
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #D9A577 ;
+    display: grid;
+    grid-template-columns: 15% 15% 40% 15% 15% ;
+    
+}
+.Nav-container>div
+{
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.homeButton
+{
+    margin-top: 4%;
+    font-size: medium;
+    grid-column: 1 / span 1;
+}
+.menuButton
+{
+    margin-top: 4%;
+    font-size: medium;
+    grid-column: 2 / span 1;
+}
+.PunButton
+{   
+    font-size: x-large;
+    grid-column: 3 / span 1;
+}
+.WorkButton
+{
+    margin-top: 4%;
+    font-size: medium;
+    grid-column: 4 / span 1;
+}
+.ProjectButton
+{
+    margin-top: 4%;
+    font-size: medium;
+    grid-column: 5 / span 1;
+}
+
+a:link
+{
+    text-decoration: none;
+    color: white;
+}
+a:visited 
+{
+    text-decoration: none;
+    color: white;
+}
+a:hover 
+{
+    text-decoration: none;
+    color: #D9C2AD;
+}
+
+/* Resume */
+.Resume
+{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+.resumePic
+{
+    width: 50%;
+}
+
+/* footer */
+.footer
+{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33% ; 
+    background-color: #A66B38;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer > div
+{
+    font-size: 60%;
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+.contactPic
+{
+    width: 6%;
+}
+
+@media only screen and (max-width: 768px) 
+{
+    .resumePic
+    {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 500px) 
+{
+    .Nav-container
+    {  
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: #D9A577 ;
+        display: grid;
+        grid-template-columns: 15% 15% 40% 15% 15% ;
+        
+    }
+    .Nav-container>div
+    {
+        font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .homeButton
+    {
+        margin-top: 12%;
+        font-size: small;
+        grid-column: 1 / span 1;
+    }
+    .menuButton
+    {
+        margin-top: 12%;
+        font-size: small;
+        grid-column: 2 / span 1;
+    }
+    .PunButton
+    {   
+        font-size: large;
+        grid-column: 3 / span 1;
+    }
+    .WorkButton
+    {
+        margin-top: 12%;
+        font-size: small;
+        grid-column: 4 / span 1;
+    }
+    .ProjectButton
+    {
+        margin-top: 12%;
+        font-size: small;
+        grid-column: 5 / span 1;
+    }
+
+     /* Resume */   
+    .resumePic
+    {
+        width: 100%;
+    }
+    /* footer mobile */
+    .footer
+    {
+        display: grid;
+        grid-template-columns: 33.33% 33.33% 33.33% ; 
+        background-color: #A66B38;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .footer > div
+    {
+        font-size: 35%;
+        font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+    }
+    .contactPic
+    {
+        width: 5%;
+    }
+
+}
