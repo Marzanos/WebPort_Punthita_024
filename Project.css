@@ -24,6 +24,7 @@ body
     font-size: medium;
     grid-column: 1 / span 1;
 }
+
 .menuButton
 {
     margin-top: 4%;
@@ -34,6 +35,8 @@ body
 {   
     font-size: x-large;
     grid-column: 3 / span 1;
+    color: white;
+    font-weight: bold;
 }
 .WorkButton
 {
@@ -97,6 +100,7 @@ h2
 }
 .Syparthia-Slide-container
 {
+    max-width: 100%;
     grid-column: 2 / span 1;    
 }
 .SyparthiaText
@@ -186,7 +190,7 @@ video
 {
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 60%;
     width: auto;
     padding: 16px;
     color: palevioletred;
@@ -228,6 +232,19 @@ video
 {
     from {opacity: .4}
     to {opacity: 1}
+}
+/* References */
+
+.References
+{
+    text-align: left;
+    color: #6e441e;
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.References > a
+{
+    color: #A66B38;
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* footer */
@@ -456,6 +473,8 @@ video
     {   
         font-size: large;
         grid-column: 3 / span 1;
+        color: white;
+        font-weight: bold;
     }
     .WorkButton
     {
@@ -619,5 +638,24 @@ video
     .contactPic
     {
         width: 5%;
+    }
+    @media only screen and (max-width: 320px) 
+    {
+        .prev, .next 
+        {
+        cursor: pointer;
+        position: absolute;
+        top: 34%;
+        width: auto;
+        padding: 16px;
+        color: palevioletred;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        margin-right: 25%;
+        margin-bottom: 20%;
+        }
     }
 }

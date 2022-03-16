@@ -35,6 +35,8 @@ body
 {   
     font-size: x-large;
     grid-column: 3 / span 1;
+    color: white;
+    font-weight: bold;
 }
 .WorkButton
 {
@@ -140,6 +142,8 @@ a:hover
     {   
         font-size: large;
         grid-column: 3 / span 1;
+        color: white;
+        font-weight: bold;
     }
     .WorkButton
     {

@@ -37,3 +37,15 @@ fieldset{
 .green{
     background-color: green; 
 }
+
+.References
+{
+    text-align: left;
+    color: #6e441e;
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.References > a
+{
+    color: #A66B38;
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

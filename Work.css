@@ -35,8 +35,9 @@ body
 .PunButton
 {   
     font-size: x-large;
-    color: white;
     grid-column: 3 / span 1;
+    color: white;
+    font-weight: bold;
 }
 .WorkButton
 {
@@ -151,6 +152,8 @@ h2
     {   
         font-size: large;
         grid-column: 3 / span 1;
+        color: white;
+        font-weight: bold;
     }
     .WorkButton
     {

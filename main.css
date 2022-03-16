@@ -34,6 +34,8 @@ body
 {   
     font-size: x-large;
     grid-column: 3 / span 1;
+    color: white;
+    font-weight: bold;
 }
 .WorkButton
 {
@@ -158,6 +160,19 @@ a:hover
     font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/* References */
+
+.References
+{
+    text-align: left;
+    color: #6e441e;
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.References > a
+{
+    color: #A66B38;
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 /* footer */
 .footer
@@ -295,6 +310,8 @@ a:hover
     {   
         font-size: large;
         grid-column: 3 / span 1;
+        color: white;
+        font-weight: bold;
     }
     .WorkButton
     {
